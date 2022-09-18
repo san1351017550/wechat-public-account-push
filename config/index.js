@@ -18,13 +18,13 @@ export const config = {
   IS_SHOW_COLOR: true,
 
   // 功能开关,打开：true，关闭：false
-  SWITCH: {
+  SWITCH: {true
     /** 每日天气 */
     weather: true,
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句
